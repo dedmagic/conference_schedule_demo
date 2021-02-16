@@ -1,4 +1,6 @@
 import '../css/App.css';
+import AboutConference from './AboutConference';
+import Speakears from './Speakers';
 import TopMenu from './TopMenu';
 
 function App() {
@@ -8,7 +10,8 @@ function App() {
             <TopMenu />
         </div>
         <div class="row">
-
+            {/* <AboutConference /> */}
+            <Speakears />
         </div>
     </div>    
   );
