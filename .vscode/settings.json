@@ -1,0 +1,54 @@
+{
+    "saveEditorLayout.list": [
+        {
+            "name": "left",
+            "documents": [
+                {
+                    "fsPath": "d:\\git\\conference_schedule_demo\\TODO.txt",
+                    "column": 1
+                },
+                {
+                    "fsPath": "d:\\git\\conference_schedule_demo\\src\\store\\TopMenuStore.js",
+                    "column": 1
+                },
+                {
+                    "fsPath": "d:\\git\\conference_schedule_demo\\src\\components\\TopMenu.js",
+                    "column": 1
+                },
+                {
+                    "fsPath": "d:\\git\\conference_schedule_demo\\src\\components\\App.js",
+                    "column": 1
+                },
+                {
+                    "fsPath": "d:\\git\\conference_schedule_demo\\src\\components\\AboutConference.js",
+                    "column": 1
+                },
+                {
+                    "fsPath": "d:\\git\\conference_schedule_demo\\src\\components\\Speakers.js",
+                    "column": 1
+                }
+            ]
+        },
+        {
+            "name": "right",
+            "documents": [
+                {
+                    "fsPath": "d:\\git\\conference_schedule_demo\\src\\components\\TopMenu.js",
+                    "column": 2
+                },
+                {
+                    "fsPath": "d:\\git\\conference_schedule_demo\\src\\components\\App.js",
+                    "column": 2
+                },
+                {
+                    "fsPath": "d:\\git\\conference_schedule_demo\\jsconfig.json",
+                    "column": 2
+                },
+                {
+                    "fsPath": "d:\\git\\conference_schedule_demo\\src\\index.js",
+                    "column": 2
+                }
+            ]
+        }
+    ]
+}
