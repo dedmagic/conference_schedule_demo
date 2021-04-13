@@ -1,8 +1,13 @@
 import React from 'react';
-import { MenuItems } from '../store/TopMenuStore';
-import { inject } from 'mobx-react';
+// import MenuItems from '../store/TopMenuStore';
 
-@inject('topMenuStore')
+const MenuItems = [
+    // path используется в App.js (роутинг)
+    { path: '/', title: 'О конференции' },
+    { path: '/shedule', title: 'Программа' },
+    { path: '/speakers', title: 'Спикеры' },
+];
+
 export class TopMenu extends React.Component {
     render() {
         return (
