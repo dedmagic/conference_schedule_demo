@@ -1,20 +1,18 @@
-const MenuItems = [
-    // path используется в App.js (роутинг)
-    { path: '/', title: 'О конференции' },
-    { path: '/shedule', title: 'Программа' },
-    { path: '/speakers', title: 'Спикеры' },
-];
+import { makeAutoObservable } from 'mobx';
 
-export default { MenuItems };
-// export { MenuItems };
+class TopMenuStore {
+    currentItemId = 1;
 
-// class TopMenuStore {
-//     menuItems = [
-//         // path используется в App.js (роутинг)
-//         { path: '/', title: 'О конференции' },
-//         { path: '/shedule', title: 'Программа' },
-//         { path: '/speakers', title: 'Спикеры' },
-//     ]
-// }
+    constructor() {
+        makeAutoObservable(this);
+    }
 
-// export default new TopMenuStore();
+    MenuItems = [
+        // path используется в App.js (роутинг)
+        { id: 1, path: '/', title: 'О конференции' },
+        { id: 2, path: '/shedule', title: 'Программа' },
+        { id: 3, path: '/speakers', title: 'Спикеры' },
+    ]
+}
+
+export default new TopMenuStore();

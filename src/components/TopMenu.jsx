@@ -1,12 +1,5 @@
 import React from 'react';
-// import MenuItems from '../store/TopMenuStore';
-
-const MenuItems = [
-    // path используется в App.js (роутинг)
-    { path: '/', title: 'О конференции' },
-    { path: '/shedule', title: 'Программа' },
-    { path: '/speakers', title: 'Спикеры' },
-];
+import TopMenuStore from '../store/TopMenuStore.js';
 
 export class TopMenu extends React.Component {
     render() {
@@ -17,13 +10,12 @@ export class TopMenu extends React.Component {
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
-                            {MenuItems.map(item => (
+                            {TopMenuStore.MenuItems.map(item => (
                                 <li class="nav-item">
                                     <a class="nav-link" href={item.path}>{item.title}</a>
                                 </li>
                             ))}
                         </ul>
-
                     </div>
                 </div>
             </nav>
