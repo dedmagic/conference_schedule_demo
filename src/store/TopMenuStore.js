@@ -7,7 +7,7 @@ class TopMenuStore {
         makeAutoObservable(this);
     }
 
-    MenuItems = [
+    menuItems = [
         // path используется в App.js (роутинг)
         { id: 1, path: '/', title: 'О конференции' },
         { id: 2, path: '/shedule', title: 'Программа' },

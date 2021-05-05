@@ -3,7 +3,7 @@ import '../css/App.css';
 
 import TopMenu from "./TopMenu.jsx";
 import AboutConference from './AboutConference';
-import Speakears from './Speakers';
+import Speakears from './Speakers.jsx';
 
 function App() {
     return (

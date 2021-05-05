@@ -10,7 +10,7 @@ export class TopMenu extends React.Component {
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
-                            {TopMenuStore.MenuItems.map(item => (
+                            {TopMenuStore.menuItems.map(item => (
                                 <li class="nav-item">
                                     <a class="nav-link" href={item.path}>{item.title}</a>
                                 </li>
